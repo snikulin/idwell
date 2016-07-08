@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<title>iDwell</title>
+		<link href="template_styles.css" rel="stylesheet">
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/scripts.min.js"></script>
+	</head>
+	<body>
+		<div class="site_wrap">
+			<header class="site_header">
+				<div class="site_header_helper"></div>
+				<div class="site_header_content">
+					<div class="b_center">
+						<div class="b_table">
+							<div class="b_table__cell">
+
+								<!--LOGO-->
+								<div class="logo_wrap"><a href="#" class="logo"></a></div>
+								<!--end LOGO-->
+
+							</div>
+							<div class="b_table__cell" style="width: 100%;">
+								<div class="site_header_left">
+									<div class="b_table">
+										<div class="b_table__cell">
+											<div class="site_header_text"><span class="sht__full">Account login</span><span class="sht__short">Login</span></div>
+										</div>
+									</div>
+								</div>
+								<div class="site_header_right">
+									<div class="b_table">
+										<div class="b_table__cell">
+
+											<!--AUTH-->
+											<div class="auth_wrap">
+												<div class="auth__text auth__text_hide">Do not have account yet?</div>
+												<a href="#" class="btn_01">Sign up<span class="auth__hide"> free</span></a>
+											</div>
+											<!--end AUTH-->
+
+										</div>
+									</div>
+								</div>
+								<div class="clear_both"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="site_workarea">
+
+				<!--LOGIN-->
+				<div class="login_wrap">
+					<div class="b_main_title"><h1><div class="login_ico"></div>Log in</h1></div>
+
+					<div class="b_white_block b_white_block--bottom">
+						<form class="def_form login_form js_validate" action="#" method="post">
+							<div class="lf__fields">
+								<div class="def_form_line">
+									<div class="def_form_title">E-Mail</div>
+									<div class="def_form_field def_form_field--inside"><input type="email" value="" name="login_mail" placeholder="" autocomplete="off" data-rule-required="true"></div>
+								</div>
+
+								<div class="def_form_line">
+									<div class="def_form_title">Password <a href="#" class="dft__small">Forgot Password?</a></div>
+									<div class="def_form_field def_form_field--inside"><input type="password" value="" name="login_password" placeholder="" autocomplete="off" data-rule-required="true" data-msg-required="Incorrect email or password" data-rule-minlength="8"></div>
+									<div class="def_form_error"></div>
+								</div>
+
+								<div class="def_form_line">
+									<div class="btn_helper btn_helper--fullwidth">
+										<button class="btn_02 btn_02--green" type="submit">Log In</button>
+									</div>
+								</div>
+
+								<div class="custom_checkbox_wrap">
+									<label class="custom_checkbox"><input type="checkbox" name="contacts_subscribe" value="" checked>Remember my account on this computer</label>
+								</div>
+
+							</div>
+							<div class="login_social_wrap">
+								<div class="ls__title">Log In via:</div>
+								<a href="#" class="ls__item ls__item--facebook"></a>
+								<a href="#" class="ls__item ls__item--google"></a>
+								<a href="#" class="ls__item ls__item--linkedin"></a>
+							</div>
+						</form>
+					</div>
+					<div class="b_white_block_bottom"></div>
+
+				</div>
+				<!--end LOGIN-->
+
+			</main>
+		</div>
+	</body>
+</html>
